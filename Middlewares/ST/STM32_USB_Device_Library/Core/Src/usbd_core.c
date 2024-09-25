@@ -296,7 +296,7 @@ USBD_StatusTypeDef USBD_RegisterClassComposite(USBD_HandleTypeDef *pdev, USBD_Cl
   */
 USBD_StatusTypeDef  USBD_UnRegisterClassComposite(USBD_HandleTypeDef *pdev)
 {
-  USBD_StatusTypeDef   ret = USBD_FAIL;
+  USBD_StatusTypeDef   ret = USBD_OK;
   uint8_t idx1;
   uint8_t idx2;
 
